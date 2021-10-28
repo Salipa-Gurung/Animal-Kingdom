@@ -1,0 +1,30 @@
+/* .photo--grid-section {
+    width: 85%;
+    margin: auto;
+} */
+
+.photo--grid-section h3{
+    text-align: center;
+}
+
+.photo-grid {
+    /* display: flex; */
+    display: grid;
+    /* flex-wrap: wrap; */
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+    gap: .5em;
+}
+
+.photo-grid a {
+    display: inline;
+    height: fit-content;
+    width: fit-content;
+}
+
+.photo-grid a div {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* display: inline; */
+}
