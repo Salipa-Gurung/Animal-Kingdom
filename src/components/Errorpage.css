@@ -1,0 +1,71 @@
+
+:root{
+    --bg-color:rgb(179, 209, 255);
+    --card-color:white;
+    --error-message:rgb(148, 148, 148);
+    --error:rgb(201, 201, 201);
+    --error-title:rgb(14, 9, 102);
+    --btn-text:white;
+    --btn-bg-color:rgb(72, 145, 255);
+}
+
+#background{
+    background-color: var(--bg-color);
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    padding: 8em 7em;
+}
+
+#card{
+    border-radius: 2em;
+    background-color: var(--card-color);
+    padding: 8em 5em;
+    display: flex;
+    flex-direction: row;
+}
+#error-title{
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--error-title);
+}
+#error-message{
+    font-size: x-large;
+    font-weight: 400;
+    color: var(--error-message);
+}
+.btn{
+    border-radius: 0.8em;
+    color: var(--btn-text);
+    background-color: var(--btn-bg-color);
+    padding: 0.7em 0.9em;
+    font-size: medium;
+}
+.go-back{
+    color: var(--btn-bg-color);
+    font-size: medium;
+    margin: 0.8em;
+}
+ .error{
+    border-radius: 1.5em;
+    display: inline;
+    color: var(--btn-text);
+    background-color: var(--error);
+    padding: 0.5em 0.9em;
+ }
+ #illustration{
+     flex: 1;
+     width: fit-content;
+     block-size: fit-content;
+ }
+ #error-content{
+     flex: 3;
+ }
+ #illustration,#error-content{
+    margin-left: 6em;
+ }
+ .btn-section{
+     margin-top: 1.5em;
+ }
